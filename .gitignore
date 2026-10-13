@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+data/
+runs/
+archive*/
+train.log
+*.pt
+# app/model/pcb_cls.onnx is committed on purpose: the deployed app loads it.
